@@ -1,0 +1,23 @@
+{
+  "model": "Random Forest Regressor",
+  "mae": 17.26,
+  "r2_score": 0.9854,
+  "rmse": 47.54,
+  "training_samples": 55019,
+  "total_records": 68774,
+  "feature_importances": {
+    "temperature": 0.002614949908049663,
+    "humidity": 0.00427308112046823,
+    "wind_speed": 0.004535535972930433,
+    "irradiation": 0.9885764329985517
+  },
+  "features": [
+    "Temperature (\u00b0C)",
+    "Humidity (%)",
+    "Wind Speed (m/s)",
+    "Solar Irradiation (W/m\u00b2)"
+  ],
+  "target_variable": "AC Power Generation (kW)",
+  "dataset_name": "Plant 1 Generation & Weather Sensor Data",
+  "collection_period": "May 15, 2020 \u2013 June 17, 2020"
+}

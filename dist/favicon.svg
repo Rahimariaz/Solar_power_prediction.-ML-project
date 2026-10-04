@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="45" fill="#0B0F19" stroke="#FACC15" stroke-width="4"/>
+  <circle cx="50" cy="50" r="22" fill="url(#sunGrad)"/>
+  <path d="M50 5 L50 18 M50 82 L50 95 M5 50 L18 50 M82 50 L95 50 M18 18 L27 27 M73 73 L82 82 M18 82 L27 73 M73 27 L82 18" stroke="#FACC15" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <radialGradient id="sunGrad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(50 50) rotate(90) scale(22)">
+      <stop stop-color="#FACC15"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </radialGradient>
+  </defs>
+</svg>
